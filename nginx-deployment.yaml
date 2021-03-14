@@ -23,7 +23,7 @@ spec:
         image: nginx
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 90
+        - containerPort: 80
         resources:
             limits:
               cpu: 500m
