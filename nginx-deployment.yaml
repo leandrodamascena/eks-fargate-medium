@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: k8s.gcr.io/hpa-example
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
