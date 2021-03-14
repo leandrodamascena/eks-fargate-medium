@@ -4,7 +4,7 @@ metadata:
   name: hpa-nginx
   namespace: fargate
 spec:
-  maxReplicas: 100
+  maxReplicas: 10
   minReplicas: 1
   scaleTargetRef:
     apiVersion: apps/v1
