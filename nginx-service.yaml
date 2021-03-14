@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-nginx
+  namespace: fargate
+  labels:
+    app: nginx
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: nginx
